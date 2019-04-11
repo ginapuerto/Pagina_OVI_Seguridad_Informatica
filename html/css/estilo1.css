@@ -1,0 +1,93 @@
+
+footer{
+	font-family: 'open sans',sans-serif; 
+    font-family: "marvelous", Helvetica, verdana;
+
+}
+body{
+	background: #255 255 255 255;
+	color: #000000;
+	font-family: "marvelous",Helvetica,verdana;
+    font-size:2em;
+}
+h1{
+   color:#ffffff;
+   margin:0.25em auto;
+   text-align: center;
+   text-shadow: 4px 4px 10px rgba(255,255,255,0,5);
+	}
+
+	header,nav,article,footer{
+		background: #005883;
+		border-radius: 5em auto;
+		margin: 0.2em auto;
+		max-width: 1150px;
+		padding: 0.10em;
+		text-align:center;
+	}
+
+    section#contenedor{
+    	margin: 0.4em auto;
+    	max-width: 90px;
+    	padding: 0;
+    	/*background: #ffffff;*/
+    	text-align:center;
+    }
+
+    article{
+        
+    	background:#f0b429;
+    	border-radius: 0.5em;
+    	min-height: 150px;
+    	padding: 0.30em;
+        max-width: 1150px;
+        text-align: center;
+        
+    }
+
+    aside{
+    	width: 120%;
+        text-align: center;
+    }
+   /* menu */
+
+#menu ul {
+display: flex;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+/* items del menu */
+
+
+
+/* enlaces del menu */
+
+#menu  a {
+ display: block;
+        padding: 1.0em;
+        background-color: #F9B53C;
+        text-decoration: none;
+        color: #191C26;
+ 
+}
+
+#menu a:hover {
+
+background-color: #CC673B;
+}
+
+/* items del menu */
+
+#menu ul li ul {
+ display: none;
+
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li a:hover +ul,#menu ul li ul:hover{
+    display: block;
+ 
+}
